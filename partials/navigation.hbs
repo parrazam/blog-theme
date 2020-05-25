@@ -9,6 +9,9 @@
                 </a>
             </li>
         {{/foreach}}
+        <li class="nav-rss" role="menuitem">
+            <a class="rss-button" href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener">{{> "icons/rss"}}</a>
+        </li>
     </ul>
 {{else}}
     <ul class="nav" role="menu">
