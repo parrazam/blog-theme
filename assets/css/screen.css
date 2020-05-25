@@ -3083,6 +3083,7 @@ Usage (In Ghost editor):
 /* ---------------------------------------------------------- */
 progress {
   -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   z-index: 1000;
   position: fixed;
