@@ -10,8 +10,6 @@ into the {body} of the default.hbs template --}}
 {{!-- Everything inside the #post tags pulls data from the post --}}
 {{#post}}
 
-<progress class="reading-progress-bar"></progress>
-
 <main id="site-main" class="site-main outer">
     <div class="inner">
 
@@ -255,7 +253,6 @@ into the {body} of the default.hbs template --}}
 
             window.requestAnimationFrame(frameListening);
         };
-
         readingProgress(".post-full-content", ".reading-progress-bar");
     });
 </script>
