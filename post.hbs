@@ -230,14 +230,6 @@ into the {body} of the default.hbs template --}}
             const content = document.querySelector(contentArea);
             const progress = document.querySelector(progressBar);
 
-            // Minutes remaining label template
-            const label = value => `${value} minute${value !== 1 ? "s" : ""} remaining`;
-
-            // Set the progress bar label to maximum time remaining if data attribute is present
-            if (progress.hasAttribute('data-reading-progress')) {
-                progress.dataset.readingProgress = label(progress.max);
-            }
-
             const frameListening = () => {
                 // Get the content area position,
                 // the vertical centre of the browser window,
@@ -245,11 +237,6 @@ into the {body} of the default.hbs template --}}
                 const contentBox = content.getBoundingClientRect();
                 const midPoint = window.innerHeight / 2;
                 const minsRemaining = Math.round(progress.max - progress.value);
-
-                // Update the label if data attribute is present
-                if (progress.hasAttribute('data-reading-progress')) {
-                    progress.dataset.readingProgress = label(minsRemaining);
-                }
 
                 // Default the progress bar to 0 before content is in view
                 if (contentBox.top > midPoint) {
