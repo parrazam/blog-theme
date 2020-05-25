@@ -3081,17 +3081,35 @@ Usage (In Ghost editor):
 
 /* 13. Progress Bar
 /* ---------------------------------------------------------- */
-progress.reading-progress-bar {
+progress {
+  -webkit-appearance: none;
   appearance: none;
+  z-index: 1000;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 2px;
 }
 
-progress.reading-progress-bar[value]::-webkit-progress-bar {
+progress[value]::-webkit-progress-bar {
   background-color: rgba(0,0,0,0.5);
 }
 
-progress.reading-progress-bar[value]::-webkit-progress-value {
-  background-color: #9d2235;
+progress[value]::-webkit-progress-value {
+  background-color: #3eb0ef;
+}
+
+progress::before {
+    content: attr(data-reading-progress);
+    position: absolute;
+    background: none;
+    font-size: .6em;
+    margin: .6em .8em;
+    color: white;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    padding: .3em .6em;
+    border-radius: .8em;
 }
