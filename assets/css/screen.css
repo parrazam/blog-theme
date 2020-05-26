@@ -2934,6 +2934,10 @@ Usage (In Ghost editor):
         background: var(--darkmode);
     }
 
+    .post-full-tags {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
     .post-full-title {
         color: rgba(255, 255, 255, 0.9);
     }
