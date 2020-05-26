@@ -3015,9 +3015,9 @@ Usage (In Ghost editor):
         color: rgba(255, 255, 255, 0.6);
     }
 
-    .post-full-content p code {
+    .post-full-content code {
         background: var(--darkgrey);
-        color: var(--whitegrey);
+        color: rgba(255, 255, 255, 0.6);
     }
 
     .post-full-content table td:first-child {
