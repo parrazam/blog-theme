@@ -3003,8 +3003,13 @@ Usage (In Ghost editor):
     }
 
     .post-full-content code {
-        color: #fff;
-        background: #000;
+        background: var(--darkgrey);
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .post-full-content p code {
+        background: var(--darkgrey);
+        color: rgba(255, 255, 255, 0.6);
     }
 
     hr {
@@ -3012,11 +3017,6 @@ Usage (In Ghost editor):
     }
 
     .post-full-content figcaption {
-        color: rgba(255, 255, 255, 0.6);
-    }
-
-    .post-full-content code {
-        background: var(--darkgrey);
         color: rgba(255, 255, 255, 0.6);
     }
 
