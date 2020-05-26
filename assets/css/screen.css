@@ -1195,15 +1195,15 @@ Usage (In Ghost editor):
     font-size: 0.8em;
     line-height: 1em;
     font-weight: 400!important;
-    background: var(--whitegrey);
-    color: var(--darkgrey);
+    background: var(--whitegrey) !important;
+    color: var(--darkgrey) !important;
     border-radius: 3px;
 }
 
 .post-full-content p code {
     word-break: break-all;
-    background: var(--whitegrey);
-    color: var(--darkgrey);
+    background: var(--whitegrey) !important;
+    color: var(--darkgrey) !important;
 }
 
 .post-full-content pre {
@@ -3113,6 +3113,7 @@ progress {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  background-color: rgba(0,0,0);
   z-index: 1000;
   position: fixed;
   left: 0;
