@@ -2891,7 +2891,7 @@ Usage (In Ghost editor):
         background: var(--darkmode);
     }
 
-    .post-card-byline-content a {
+    .post-card-byline-content {
         color: rgba(255, 255, 255, 0.6);
     }
 
