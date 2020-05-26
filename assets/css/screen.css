@@ -1201,6 +1201,8 @@ Usage (In Ghost editor):
 
 .post-full-content p code {
     word-break: break-all;
+    background: var(--whitegrey);
+    color: var(--darkgrey);
 }
 
 .post-full-content pre {
@@ -3011,6 +3013,11 @@ Usage (In Ghost editor):
 
     .post-full-content figcaption {
         color: rgba(255, 255, 255, 0.6);
+    }
+
+    .post-full-content p code {
+        background: var(--darkgrey);
+        color: var(--whitegrey);
     }
 
     .post-full-content table td:first-child {
