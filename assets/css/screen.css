@@ -3101,10 +3101,6 @@ progress[value]::-webkit-progress-value {
   background-color: #9d2235;
 }
 
-progress[value]::-moz-progress-bar {
-  background-color: rgba(0,0,0);
-}
-
-progress[value]::-moz-progress-value {
+progress::-moz-progress-bar {
   background-color: #9d2235;
 }
