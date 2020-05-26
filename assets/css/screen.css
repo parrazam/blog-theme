@@ -1195,15 +1195,15 @@ Usage (In Ghost editor):
     font-size: 0.8em;
     line-height: 1em;
     font-weight: 400!important;
-    background: var(--darkgrey);
-    color: var(--whitegrey);
+    background: var(--whitegrey);
+    color: rgba(255, 255, 255, 0.6);
     border-radius: 3px;
 }
 
 .post-full-content p code {
     word-break: break-all;
-    background: var(--darkgrey);
-    color: var(--whitegrey);
+    background: var(--whitegrey);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .post-full-content pre {
