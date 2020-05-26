@@ -2892,6 +2892,10 @@ Usage (In Ghost editor):
     }
 
     .post-card-byline-content a {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .post-card-byline-content a {
         color: rgba(255, 255, 255, 0.75);
     }
 
