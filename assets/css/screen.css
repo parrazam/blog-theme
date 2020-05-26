@@ -2907,6 +2907,10 @@ Usage (In Ghost editor):
         color: color(var(--midgrey) l(+10%));
     }
 
+    .post-card-excerpt p {
+        color: var(--midgrey);
+    }
+
     .author-avatar,
     .static-avatar {
         border-color: color(var(--darkgrey) l(+2%));
