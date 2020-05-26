@@ -2908,7 +2908,7 @@ Usage (In Ghost editor):
     }
 
     .post-card-excerpt p {
-        color: var(--midgrey);
+        color: var(--whitegrey);
     }
 
     .author-avatar,
