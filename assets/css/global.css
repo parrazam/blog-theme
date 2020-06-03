@@ -28,6 +28,9 @@
     --pink: #fa3a57;
     --brown: #a3821a;
     --darkmode: color(var(--darkgrey) l(+2%));
+    --snorkleblue: #011e32;
+    --snorklewhite: #fff;
+    --snorklelight: #eee;
 }
 
 /* Reset
