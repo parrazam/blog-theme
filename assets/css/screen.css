@@ -2881,6 +2881,14 @@ Usage (In Ghost editor):
         background: rgba(0,0,0,0.6);
     }
 
+    .site-header-background {
+        background: #011e32;
+    }
+
+    .site-archive-header .no-image .site-description {
+        color: #eee;
+    }
+
     .post-feed {
         background: #011e32;
     }
