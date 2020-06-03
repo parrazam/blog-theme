@@ -2935,7 +2935,7 @@ Usage (In Ghost editor):
     }
 
     .post-full-content {
-        background: var(--darkmode);
+        background: #011e32;
     }
 
     .post-full-tags {
@@ -2947,7 +2947,7 @@ Usage (In Ghost editor):
     }
 
     .post-full-custom-excerpt {
-        color: color(var(--midgrey) l(+10%));
+        color: #eee;
     }
 
     .post-full-image {
