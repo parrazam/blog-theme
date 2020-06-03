@@ -2889,6 +2889,10 @@ Usage (In Ghost editor):
         background: #011e32;
     }
 
+    .site-archive-header .no-image {
+        background: #011e32;
+    }
+
     .site-archive-header .no-image .site-description {
         color: #eee;
     }
