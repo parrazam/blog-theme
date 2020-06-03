@@ -2882,17 +2882,11 @@ Usage (In Ghost editor):
     }
 
     .site-header-background.no-image {
-        background: #011e32;
-    }
-
-    .site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after,
-    .site-nav-main .site-nav-left-wrapper:after {
-        right: 0;
-        background: #011e32;
+        background: #011e32 !important;
     }
 
     .site-archive-header.no-image {
-        background: #011e32;
+        background: #011e32 !important;
     }
 
     .site-archive-header .no-image {
