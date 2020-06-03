@@ -2885,7 +2885,7 @@ Usage (In Ghost editor):
         background: #011e32;
     }
 
-    .post-card .dark,
+    .post-card,
     .post-card:hover {
         border-bottom-color: color(var(--darkmode) l(+8%));
         color: #eee;
@@ -2923,13 +2923,13 @@ Usage (In Ghost editor):
         color: rgba(255, 255, 255, 0.6);
     }
 
-    .author-avatar .dark,
+    .author-avatar,
     .static-avatar {
         border-color: color(var(--darkgrey) l(+2%));
     }
 
-    .site-main .dark,
-    .post-template .site-main .dark,
+    .site-main,
+    .post-template .site-main,
     .page-template .site-main {
         background: #011e32;
     }
@@ -2983,10 +2983,10 @@ Usage (In Ghost editor):
         color: rgba(255, 255, 255, 0.75);
     }
 
-    .post-full-content h1 .dark,
-    .post-full-content h2 .dark,
-    .post-full-content h3 .dark,
-    .post-full-content h4 .dark,
+    .post-full-content h1,
+    .post-full-content h2,
+    .post-full-content h3,
+    .post-full-content h4,
     .post-full-content h6 {
         color: rgba(255, 255, 255, 0.9);
     }
@@ -3035,12 +3035,12 @@ Usage (In Ghost editor):
         background-color: color(var(--darkmode) l(+8%));
     }
 
-    .post-full-content table th .dark,
+    .post-full-content table th,
     .post-full-content table td {
         border: color(var(--darkmode) l(+8%)) 1px solid;
     }
 
-    .post-full-content .kg-bookmark-container .dark,
+    .post-full-content .kg-bookmark-container ,
     .post-full-content .kg-bookmark-container:hover {
         color: rgba(255, 255, 255, 0.75);
         box-shadow: 0 0 1px rgba(255,255,255,0.9);
@@ -3098,7 +3098,7 @@ Usage (In Ghost editor):
         opacity: 0.9;
     }
 
-    .subscribe-form .invalid .message-error .dark,
+    .subscribe-form .invalid .message-error,
     .subscribe-form .error .message-error {
         color: color(var(--red) l(+5%) s(-5%));
     }
