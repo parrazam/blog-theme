@@ -2868,6 +2868,10 @@ Usage (In Ghost editor):
         color: rgba(255, 255, 255, 0.75);
         background: var(--snorkleblue);
     }
+    body[data-theme='dark'] {
+        color: #fff;
+        background: #000;
+    }
 
     img {
         opacity: 0.9;
