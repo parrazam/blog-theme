@@ -2863,7 +2863,7 @@ Usage (In Ghost editor):
 
 /* 12. Dark Mode
 /* ---------------------------------------------------------- */
-[data-theme="dark"] {
+@media (prefers-color-scheme: dark) {
     body {
         color: rgba(255, 255, 255, 0.75);
         background: var(--snorkleblue);
