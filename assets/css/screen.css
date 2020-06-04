@@ -3145,9 +3145,9 @@ progress[value]::-webkit-progress-bar {
 }
 
 progress[value]::-webkit-progress-value {
-  background-color: var(--snorkleblue);
+  background-color: var(--progressbarred);
 }
 
 progress::-moz-progress-bar {
-  background-color: var(--snorkleblue);
+  background-color: var(--progressbarred);
 }
