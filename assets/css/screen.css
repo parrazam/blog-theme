@@ -3122,6 +3122,23 @@ Usage (In Ghost editor):
     .subscribe-form .success .message-success {
         color: color(var(--green) l(+5%) s(-5%));
     }
+
+    .subscribe-overlay .subscribe-email {
+    display: block;
+    padding: 14px 20px;
+    width: 100%;
+    border: none;
+    color: #eee;
+    font-size: 2rem;
+    line-height: 1em;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    user-select: text;
+    border-radius: 8px;
+    transition: border-color 0.15s linear;
+
+    -webkit-appearance: none;
+}
 }
 
 /* 13. Progress Bar
