@@ -30,13 +30,8 @@
                 <a class="social-link social-link-tw" href="https://www.linkedin.com/in/parravidales" title="Linkedin" target="_blank" rel="noopener">{{> "icons/linkedin"}}</a>
                 <a class="social-link social-link-tw" href="https://github.com/parrazam" title="GitHub" target="_blank" rel="noopener">{{> "icons/github"}}</a>
             </div>
-            {{#unless @labs.members}}
                 <a class="rss-button" href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener">{{> "icons/rss"}}</a>
-            {{/unless}}
         {{/if}}
-
-        {{#if @labs.members}}
             <a class="subscribe-button" href="#subscribe">Suscr&iacute;bete</a>
-        {{/if}}
     </div>
 </nav>
