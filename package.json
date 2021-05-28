@@ -2,7 +2,7 @@
     "name": "casper-parra",
     "description": "A modified version of Ghost 3' Casper theme",
     "demo": "https://blog.parravidales.es",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "ghost": ">=4.0.0",
         "ghost-api": "v4"
