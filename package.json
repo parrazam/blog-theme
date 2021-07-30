@@ -2,7 +2,7 @@
     "name": "casper-parra",
     "description": "A modified version of Ghost 3' Casper theme",
     "demo": "https://blog.parravidales.es",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "engines": {
         "node": "^12.22.1 || ^14.16.1",
         "cli": "^1.17.0"
@@ -113,7 +113,7 @@
         "mysql": "2.18.1",
         "nconf": "0.11.3",
         "node-jose": "2.0.0",
-        "nodemailer": "0.7.1",
+        "nodemailer": "6.4.16",
         "oembed-parser": "1.4.7",
         "passport": "0.4.1",
         "passport-google-oauth": "2.0.0",
