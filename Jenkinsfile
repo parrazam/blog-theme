@@ -12,13 +12,13 @@ pipeline {
         sh 'node -v'
         sh 'npm -v'
         // sh 'npm install yarn'
-        sh 'yarn install' 
       }
     }
     stage('create zip file') { 
       steps {
         sh 'rm -rf node_modules'
         sh 'yarn cache clean'
+        sh 'yarn install'
         sh 'yarn zip'
       }
     }
