@@ -1,7 +1,7 @@
 pipeline {
   agent any 
   tools {
-    nodejs "node-14.16.1"
+    nodejs "node-16.x.y"
   }
   options {
     skipStagesAfterUnstable()
