@@ -11,7 +11,7 @@
         "autoprefixer": "10.4.7",
         "beeper": "3.0.0",
         "cssnano": "5.1.12",
-        "gscan": "4.31.2",
+        "gscan": "^4.31.2",
         "gulp": "4.0.2",
         "gulp-concat": "2.6.1",
         "gulp-livereload": "4.0.2",
@@ -188,7 +188,9 @@
         ]
     },
     "dependencies": {
+        "glob-parent": "^5.1.2",
         "moment": "2.29.3",
-        "moment-timezone": "0.5.34"
+        "moment-timezone": "0.5.34",
+        "validator": "^13.7.0"
     }
 }

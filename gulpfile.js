@@ -2,7 +2,7 @@ const {series, watch, src, dest, parallel} = require('gulp');
 const pump = require('pump');
 const path = require('path');
 const releaseUtils = require('@tryghost/release-utils');
-const inquirer = require('inquirer');
+const inquirer = import('inquirer');
 
 // gulp plugins and utils
 const livereload = require('gulp-livereload');
@@ -10,7 +10,7 @@ const postcss = require('gulp-postcss');
 const zip = require('gulp-zip');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
-const beeper = require('beeper');
+const beeper = import('beeper');
 const fs = require('fs');
 
 // postcss plugins
