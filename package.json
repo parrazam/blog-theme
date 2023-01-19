@@ -2,24 +2,24 @@
     "name": "casper-parra",
     "description": "A modified version of Ghost 3' Casper theme",
     "demo": "https://blog.parravidales.es",
-    "version": "2.0.2-RC",
+    "version": "2.0.2",
     "engines": {
         "ghost": ">=5.13.2"
     },
     "devDependencies": {
-        "@tryghost/release-utils": "0.8.0",
-        "autoprefixer": "10.4.7",
+        "@tryghost/release-utils": "0.8.1",
+        "autoprefixer": "10.4.13",
         "beeper": "3.0.0",
-        "cssnano": "5.1.12",
-        "gscan": "^4.31.2",
+        "cssnano": "5.1.14",
+        "gscan": "^4.36.0",
         "gulp": "^4.0.2",
         "gulp-concat": "2.6.1",
         "gulp-livereload": "4.0.2",
         "gulp-postcss": "9.0.1",
         "gulp-uglify": "3.0.2",
         "gulp-zip": "5.1.0",
-        "inquirer": "9.0.0",
-        "postcss": "8.4.14",
+        "inquirer": "9.1.4",
+        "postcss": "8.4.21",
         "postcss-color-mod-function": "3.0.3",
         "postcss-easy-import": "4.0.0",
         "pump": "3.0.0"
@@ -114,7 +114,7 @@
         "glob-parent": "^6.0.2",
         "glob-stream": "^7.0.0",
         "moment": "2.29.4",
-        "moment-timezone": "0.5.35",
+        "moment-timezone": "0.5.40",
         "validator": "^13.7.0"
     }
 }
